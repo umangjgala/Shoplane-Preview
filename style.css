@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content :space-evenly;
+    flex-direction: row;
+    margin: 100px;
+}
+
+.container .mainImage {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .mainImage .largeImage {
+    width: 80%;
+}
+
+.container .content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 40px;
+}
+
+.container .content .info h1 {
+    font-weight: 100;
+    font-size: 44px;
+    letter-spacing: -2px;
+}
+
+.container .content .info h4 {
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+
+.container .content .info h3 {
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+
+.container .content .info h3 span {
+    color: #009688;
+    font-weight: bold;  
+}
+
+.container .content .info p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939e;
+}
+
+.container .content .rowImage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.container .content .rowImage img {
+    margin: 5px;
+    width: 12%;
+    height: 90%;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.container .content .btn {
+    margin-top: 20px;
+}
+
+.container .content .btn .button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    background-color: #009688;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 50%);
+}
+
+.active {
+    border: 2px solid #009688;
+}
